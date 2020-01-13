@@ -1,3 +1,5 @@
+require 'pry'
+
 class MP3Importer
 
   attr_accessor :path
@@ -7,7 +9,7 @@ class MP3Importer
   end
 
   def files
-    
+    mp3_songs = Dir[@path]
   end
 
   def import
