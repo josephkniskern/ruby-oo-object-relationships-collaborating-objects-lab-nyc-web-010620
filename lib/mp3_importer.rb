@@ -7,11 +7,11 @@ class MP3Importer
   end
 
   def files
-
+    
   end
 
   def import
-
+    Song.new_by_filename
   end
 
 
